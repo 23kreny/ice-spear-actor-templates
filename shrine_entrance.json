@@ -1,0 +1,1193 @@
+{
+    "name": "Shrine Entrance",
+    "actors": [
+        {
+            "!Parameters": {
+                "DropTable": {
+                    "type": 160,
+                    "value": "Normal"
+                },
+                "SharpWeaponJudgeType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID0}"
+            },
+            "LinksToObj": [
+                {
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "PlacementLOD"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID1}"
+                    }
+                }
+            ],
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 990594583
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "DgnObj_DungeonEntranceSP"
+            }
+        },
+        {
+            "!Parameters": {
+                "DropTable": {
+                    "type": 160,
+                    "value": "Normal"
+                },
+                "SharpWeaponJudgeType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID1}"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 990594583
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "DgnObj_DungeonEntrance_A_01_Far"
+            }
+        },
+        {
+            "!Parameters": {
+                "DropTable": {
+                    "type": 160,
+                    "value": "Normal"
+                },
+                "SharpWeaponJudgeType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID2}"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": -105080390
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": 0.6053466796875
+                },
+                {
+                    "type": 210,
+                    "value": 1.00016784667969
+                },
+                {
+                    "type": 210,
+                    "value": 3.75146484375
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "DgnObj_EntranceShutter_A_01"
+            }
+        },
+        {
+            "!Parameters": {
+                "DropTable": {
+                    "type": 160,
+                    "value": "Normal"
+                },
+                "EventFlowEntryName": {
+                    "type": 160,
+                    "value": "Demo008_1"
+                },
+                "EventFlowName": {
+                    "type": 160,
+                    "value": "Demo008_1"
+                },
+                "SharpWeaponJudgeType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID3}"
+            },
+            "LinksToObj": [
+                {
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "Reference"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID4}"
+                    }
+                }
+            ],
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": -925432741
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": -1.00016785
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "DgnObj_EntranceElevator_A_01"
+            }
+        },
+        {
+            "!Parameters": {
+                "DropTable": {
+                    "type": 160,
+                    "value": "Normal"
+                },
+                "RemainsTerminalIndex": {
+                    "type": 209,
+                    "value": -1
+                },
+                "RemainsTerminalType": {
+                    "type": 209,
+                    "value": -1
+                },
+                "SharpWeaponJudgeType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID7}"
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID8}"
+                    }
+                }
+            ],
+            "Rotate": {
+                "type": 210,
+                "value": 2.7702979
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 1806128058
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -2.93029785
+                },
+                {
+                    "type": 210,
+                    "value": 1.00016785
+                },
+                {
+                    "type": 210,
+                    "value": 5.60473633
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "DgnObj_EntranceTerminal_A_01"
+            }
+        },
+        {
+            "!Parameters": {
+                "DropTable": {
+                    "type": 160,
+                    "value": "Normal"
+                },
+                "SharpWeaponJudgeType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID9}"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": -1619909520
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -1.46496582
+                },
+                {
+                    "type": 210,
+                    "value": 0.96359979
+                },
+                {
+                    "type": 210,
+                    "value": 9.07781982
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "DgnObj_WarpPoint_A_01"
+            }
+        },
+        {
+            "HashId": {
+                "type": 211,
+                "value": "{ID5}"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 1257667284
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -0.99511719
+                },
+                {
+                    "type": 210,
+                    "value": 1
+                },
+                {
+                    "type": 210,
+                    "value": 6.79425049
+                }
+            ],
+            "UniqueName": {
+                "type": 160,
+                "value": "Demo008_0_PlayerEndPos"
+            },
+            "UnitConfigName": {
+                "type": 160,
+                "value": "PosAfterDemoSkip"
+            }
+        },
+        {
+            "HashId": {
+                "type": 211,
+                "value": "{ID6}"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 1324596190
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -0.99511719
+                },
+                {
+                    "type": 210,
+                    "value": 1
+                },
+                {
+                    "type": 210,
+                    "value": 6.79425049
+                }
+            ],
+            "UniqueName": {
+                "type": 160,
+                "value": "Demo008_0_PlayerEndPos"
+            },
+            "UnitConfigName": {
+                "type": 160,
+                "value": "ForceSetPosDirAutoSaveAnchor"
+            }
+        },
+        {
+            "!Parameters": {
+                "IncrementSave": {
+                    "type": 208,
+                    "value": false
+                },
+                "MakeSaveFlag": {
+                    "type": 209,
+                    "value": 0
+                },
+                "NoChangeSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "SaveFlagOnOffType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID10}"
+            },
+            "LinksToObj": [
+                {
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "ForbidAttention"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID7}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": -1559299830
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LinkTagNAnd"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            }
+        },
+        {
+            "!Parameters": {
+                "IncrementSave": {
+                    "type": 208,
+                    "value": false
+                },
+                "MakeSaveFlag": {
+                    "type": 209,
+                    "value": 0
+                },
+                "NoChangeSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "SaveFlag": {
+                    "type": 160,
+                    "value": "MapTower_07_Demo"
+                },
+                "SaveFlagOnOffType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID11}"
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID7}"
+                    }
+                },
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID10}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": -902373788
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LinkTagAnd"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            }
+        },
+        {
+            "HashId": {
+                "type": 211,
+                "value": "{ID12}"
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 866405674
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "DestinationAnchor"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            }
+        },
+        {
+            "!Parameters": {
+                "IncrementSave": {
+                    "type": 208,
+                    "value": false
+                },
+                "MakeSaveFlag": {
+                    "type": 209,
+                    "value": 0
+                },
+                "NoChangeSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "SaveFlagOnOffType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID8}"
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID13}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": 0
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LinkTagAnd"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            }
+        },
+        {
+            "!Parameters": {
+                "EventFlowEntryName": {
+                    "type": 160,
+                    "value": "Demo008_0"
+                },
+                "EventFlowName": {
+                    "type": 160,
+                    "value": "Demo008_0"
+                },
+                "IsEndlessEvent": {
+                    "type": 208,
+                    "value": false
+                },
+                "LaunchEventByOffSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "LaunchEventByOnSignal": {
+                    "type": 208,
+                    "value": true
+                },
+                "TraversePos": {
+                    "X": {
+                        "type": 210,
+                        "value": -966.0137939453125
+                    },
+                    "Y": {
+                        "type": 210,
+                        "value": 127.66519927978516
+                    },
+                    "Z": {
+                        "type": 210,
+                        "value": 722.5587768554688
+                    }
+                },
+                "TraverseRadiusXZ": {
+                    "type": 210,
+                    "value": 0.8000109195709229
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID13}"
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID5}"
+                    }
+                },
+                {
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "Reference"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID6}"
+                    }
+                },
+                {
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "Reference"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID12}"
+                    }
+                },
+                {
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "Reference"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID14}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": 295738227
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "EventTag"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            }
+        },
+        {
+            "!Parameters": {
+                "IncrementSave": {
+                    "type": 208,
+                    "value": false
+                },
+                "MakeSaveFlag": {
+                    "type": 209,
+                    "value": 2
+                },
+                "NoChangeSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "SaveFlagOnOffType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID14}"
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID9}"
+                    }
+                },
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID0}"
+                    }
+                },
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID2}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": -757633401
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LinkTagAnd"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            }
+        },
+        {
+            "!Parameters": {
+                "IncrementSave": {
+                    "type": 208,
+                    "value": false
+                },
+                "MakeSaveFlag": {
+                    "type": 209,
+                    "value": 2
+                },
+                "NoChangeSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "SaveFlagOnOffType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": 2729411511
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID1}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": -757633401
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LinkTagAnd"
+            },
+            "Rotate": {
+                "type": 210,
+                "value": 0
+            }
+        },
+        {
+            "HashId": {
+                "type": 211,
+                "value": "{ID4}"
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": -575281713
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -1.67285156
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": 10.36590576
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LookTag"
+            }
+        },
+        {
+            "!Parameters": {
+                "AutoSave": {
+                    "type": 208,
+                    "value": true
+                },
+                "CameraPriority": {
+                    "type": 209,
+                    "value": 1
+                },
+                "CameraSet": {
+                    "type": 160,
+                    "value": "-"
+                },
+                "ForceCalcInEvent": {
+                    "type": 208,
+                    "value": false
+                },
+                "Shape": {
+                    "type": 160,
+                    "value": "Sphere"
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID15}"
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID16}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": 1757326637
+            },
+            "Scale": {
+                "type": 210,
+                "value": 25
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                },
+                {
+                    "type": 210,
+                    "value": 0
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "Area"
+            }
+        },
+        {
+            "!Parameters": {
+                "IncrementSave": {
+                    "type": 208,
+                    "value": false
+                },
+                "MakeSaveFlag": {
+                    "type": 209,
+                    "value": 0
+                },
+                "NoChangeSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "SaveFlagOnOffType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID16}"
+            },
+            "LinksToObj": [
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID17}"
+                    }
+                },
+                {
+                    "!Parameters": {
+                        "NoAutoDemoMember": {
+                            "type": 208,
+                            "value": false
+                        }
+                    },
+                    "DefinitionName": {
+                        "type": 160,
+                        "value": "BasicSig"
+                    },
+                    "DestUnitHashId": {
+                        "type": 211,
+                        "value": "{ID18}"
+                    }
+                }
+            ],
+            "SRTHash": {
+                "type": 209,
+                "value": 0
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LinkTagAnd"
+            }
+        },
+        {
+            "!Parameters": {
+                "IncrementSave": {
+                    "type": 208,
+                    "value": true
+                },
+                "MakeSaveFlag": {
+                    "type": 209,
+                    "value": 0
+                },
+                "NoChangeSignal": {
+                    "type": 208,
+                    "value": false
+                },
+                "SaveFlag": {
+                    "type": 160,
+                    "value": "Location_Dungeon040"
+                },
+                "SaveFlagOnOffType": {
+                    "type": 209,
+                    "value": 0
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID17}"
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 0
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LinkTagAnd"
+            }
+        },
+        {
+            "!Parameters": {
+                "LocationPriority": {
+                    "type": 209,
+                    "value": 1
+                },
+                "MessageID": {
+                    "type": 160,
+                    "value": "Dungeon040"
+                }
+            },
+            "HashId": {
+                "type": 211,
+                "value": "{ID18}"
+            },
+            "SRTHash": {
+                "type": 209,
+                "value": 0
+            },
+            "Translate": [
+                {
+                    "type": 210,
+                    "value": -8
+                },
+                {
+                    "type": 210,
+                    "value": 3
+                },
+                {
+                    "type": 210,
+                    "value": 10
+                }
+            ],
+            "UnitConfigName": {
+                "type": 160,
+                "value": "LocationTag"
+            }
+        }
+    ]
+}
